@@ -1,0 +1,11 @@
+[package]
+name = "demo_app"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "20cf9113d" }
+mystenlabs_oracle = { git = "https://github.com/georgedigkas/bot-prevention", subdir = "mystenlabs-oracle/mystenlabs_oracle", rev = "7c198e791e58446fb654d12a205e0343f9bca065" }
+
+[addresses]
+demo_app = "0x0"
+mystenlabs_oracle = "0x79bc88b5cadefc8d6130006237f4a197d567d2543f00bc12d83747829c35985d"
